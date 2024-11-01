@@ -7,7 +7,7 @@
 Сначала убедитесь, что у вас установлен Python версии 3.7 или выше. Затем установите необходимые зависимости с помощью pip:
 
 ```bash
-pip install httpx aiohttp
+pip install httpx aiohttp git+https://github.com/Berogov/BerogovPyCAI.git 
 ```
 
 ## Пример Использования
