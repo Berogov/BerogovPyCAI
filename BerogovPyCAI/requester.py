@@ -27,7 +27,7 @@ class Requester:
             return json.loads(self.text)
 
     async def requests_session_init(self) -> None:
-        self.__http_client = httpx.AsyncClient(proxies=self.__proxy)
+        self.__http_client = httpx.AsyncClient()        
 
     async def requests_session_close_async(self) -> None:
         if self.__http_client is not None:
